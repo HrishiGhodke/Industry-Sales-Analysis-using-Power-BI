@@ -1,65 +1,68 @@
-# 📊 Power BI Contoso Sales & Profitability Dashboard
+# 📊 Industry Sales Analysis using Power BI
 
-![Contoso Dashboard](Screenshots/contoso_dashboard.png)
+<p align="center">
+  <img src="https://github.com/HrishiGhodke/Industry-Sales-Analysis-using-Power-BI/blob/main/Screenshots/industry_dashboard.png?raw=true" width="850" alt="Industry Sales Analysis Dashboard">
+</p>
 
 ---
 
 ## 🏢 Project Overview
 
-The **Contoso Sales & Profitability Dashboard** is a Power BI project developed to analyze key financial and sales metrics across different regions, stores, and product categories.  
-It helps uncover insights about profitability trends, sales performance, and brand growth using interactive visualizations.
+The **Industry Sales Analysis Dashboard** is an interactive Power BI project that provides a deep dive into sales, profit, and growth performance across different industries, regions, and product categories.  
+It enables decision-makers to monitor key business metrics, identify trends, and make data-driven strategic decisions.
 
 ---
 
 ## 🎯 Objectives
 
-- Analyze **Sales**, **Profit**, **Discounts**, and **Costs** at various geographic and product levels.  
-- Evaluate **year-over-year growth** for different brands.  
-- Identify **top-performing regions and stores** by profit contribution.  
-- Build an **interactive, drill-through dashboard** with slicers and filters.
+- Analyze overall **sales and profitability** across industries.  
+- Measure **year-over-year growth** and performance trends.  
+- Identify **top-performing sectors and products** by revenue and margin.  
+- Enable **interactive filtering and drill-down** for flexible analysis.  
 
 ---
 
-## ⚙️ Tools & Technologies
+## ⚙️ Tools & Technologies Used
 
 | Tool | Purpose |
 |------|----------|
-| **Power BI Desktop** | Data modeling, DAX, and visualization |
-| **Power BI Service** | Report hosting and collaboration |
-| **DAX (Data Analysis Expressions)** | Used for calculated measures and KPIs |
-| **Sample Dataset** | Based on Microsoft’s Contoso sample business data |
+| **Power BI Desktop** | Data modeling, visualization, and dashboard creation |
+| **DAX (Data Analysis Expressions)** | Used for custom KPIs and calculations |
+| **Power Query** | Data transformation and cleaning |
+| **Excel / CSV (sample)** | Planned data sources |
+| **Power BI Service** | For hosting and collaboration (not public) |
 
 ---
 
-## 📊 Key Metrics
+## 📈 Key Metrics and KPIs
 
 | Metric | Description |
 |--------|-------------|
-| **Sales Quantity** | Total number of units sold |
-| **Sales Amount** | Total revenue generated |
-| **Discount Amount** | Total discounts provided |
-| **Cost of Goods Sold (COGS)** | Cost associated with sold products |
-| **Net Profit** | Revenue minus all costs and discounts |
-| **YoY Net Profit %** | Year-over-year profit growth percentage |
+| **Total Sales** | Total revenue generated from all industries |
+| **Net Profit** | Profit after deducting costs and discounts |
+| **Year-over-Year Growth (YoY%)** | Percentage change compared to the previous year |
+| **Average Profit Margin** | Ratio of profit to revenue |
+| **Top 5 Industries by Sales** | Highest performing industries in the dataset |
 
 ---
 
 ## 🖼️ Dashboard Features
 
-- **KPI Cards:** Summary of Sales, Profit, Discounts, and Quantities.  
-- **Net Profit Running Total (Timeline):** Monthly and quarterly profit trends.  
-- **Year-over-Year Analysis:** Waterfall chart comparing product brand performance.  
-- **Geographic Breakdown:** Continent, country, and store-level performance.  
-- **Slicers:** Filters for Year, Channel, Region, Store, Category, and Subcategory.
+- 🧭 **Dynamic Slicers** for filtering by year, region, product, or industry  
+- 💰 **KPI Cards** displaying Total Sales, Profit, and Growth Rate  
+- 📊 **Trend Analysis Charts** showing month-over-month and YoY performance  
+- 🌍 **Geographical View** for regional sales distribution  
+- 🧩 **Category Breakdown** by product and segment  
+- 📉 **Waterfall and Bar Charts** for visualizing profit variance and performance  
 
 ---
 
-## 🧠 Key Insights
+## 🧠 Insights Gained
 
-- Net Profit increased steadily, reaching **$1.78B** by Q4 2009.  
-- **Asia** and **Australia** contributed the highest overall profit margins.  
-- **Tailspin Toys** and **Wide World Importers** achieved significant YoY growth.  
-- Dynamic filtering enables deep dives into specific regions or product lines.
+- Consistent **upward trend in overall sales** across key industries.  
+- **Industrial Equipment** and **Technology** sectors showed the **highest net profit margins**.  
+- Certain regions demonstrated **higher sales volumes** but **lower profitability**, revealing potential pricing issues.  
+- Year-over-year analysis identified periods of **seasonal sales spikes**.  
 
 ---
 
@@ -67,8 +70,9 @@ It helps uncover insights about profitability trends, sales performance, and bra
 
 | File/Folder | Description |
 |--------------|-------------|
-| `PowerBI_Report.pbix` | Main Power BI project file |
-| `Screenshots/` | Contains dashboard preview images |
+| `Industry_Sales_Analysis.pbix` | Power BI project file |
+| `Screenshots/industry_dashboard.png` | Dashboard preview image |
+| *(Data folder will be added later)* | For dataset files (Excel/CSV) |
 
 ---
 
@@ -76,4 +80,4 @@ It helps uncover insights about profitability trends, sales performance, and bra
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/HrishiGhodke/Power-BI-Contoso-Sales-Profitability-Dashboard.git
+   git clone https://github.com/HrishiGhodke/Industry-Sales-Analysis-using-Power-BI.git
