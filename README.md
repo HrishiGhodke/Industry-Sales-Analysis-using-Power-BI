@@ -1,8 +1,9 @@
 # 📊 Industry Sales Analysis using Power BI
 
 <p align="center">
-  <img src="[https://github.com/HrishiGhodke/Industry-Sales-Analysis-using-Power-BI/blob/main/Screenshots/industry_dashboard.png](https://github.com/HrishiGhodke/Industry-Sales-Analysis-using-Power-BI/blob/main/Screenshots/contoso_dashboard1.png)?raw=true" width="850" alt="Industry Sales Analysis Dashboard">
+  <img src="./Screenshots/contoso_dashboard1.png" alt="Industry Sales Analysis Dashboard" style="max-width:850px; width:100%; height:auto; border-radius:8px;" />
 </p>
+
 
 ---
 
